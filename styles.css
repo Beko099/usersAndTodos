@@ -1,0 +1,93 @@
+body {
+    background-color: #D7D7D7;
+    padding: 73px 0 0 63px;
+    display: flex;
+    gap: 200px;
+    font-size: 0;
+}
+
+.left-side * {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6A84C7;
+    color: white;
+    width: 255px;
+    height: 41px;
+    font-size: 18px;
+
+}
+
+.left-side *:active {
+    background-color: #54C96D;
+}
+
+.left-side {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.right-side {
+    width: 600px;
+    margin-top: -50px;
+}
+
+.title { 
+    font-size: 24px;
+    color: black;
+ 
+}
+
+.box {
+    background-color: lightblue;
+    width: 100%;
+    height: 500px;
+    
+}
+
+li {
+    font-size: 20px;
+    
+}
+
+
+
+
+.loadSite {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: black;
+    /* display: none; */
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: lightblue;
+}
+
+.loadError {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    display: none;
+    width: 100%;
+    height: 150vh;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: lightblue;
+    z-index: 0;
+    font-size: 100px;
+}
+
+.loadTodosStatus {
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    left: 550px;
+    display: none;
+}
